@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 20,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "jshint.lintHTML": true,
+    "jshint.options": {"esversion": 6},
+    "terminal.integrated.rendererType": "dom"
+   
+}
