@@ -18,7 +18,7 @@ app.get('/api',(req,res) => {
 });
 //in order to make our page a single page app means when a user visits our page ,index.html gonna show up
 if(process.env.NODE_ENV == "production"){
-    app.use(epress.static(`client/build`));
+    app.use(express.static(`client/build`));
     //when app built this foler build has all
     //so we want wherevr user when on app,we give index.html
     app.get(`*`,(req,res) => {
